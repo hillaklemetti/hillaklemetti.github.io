@@ -364,11 +364,11 @@ li {
       margin-top: 80px;
       margin-bottom: 80px;
       margin-inline: auto;
-      padding-inline: 2rem;
+    /*  padding-inline: 2rem;*/
       text-align: center;
-      height: 80px;
+      height: 40px;
       text-align: center;
-      line-height: 60px;
+      line-height: 30px;
       border-radius: 8px;
       border: solid;
       border-color: rgba(236,220,255,255);
@@ -376,7 +376,7 @@ li {
     }
 
     .coverletter a {
-      font-size: 60px;
+      font-size: 30px;
       color: rgba(255,85,2,255);
     }
 
