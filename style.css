@@ -226,7 +226,8 @@ li {
     }
 
     .find {
-      grid-area: fi;
+     grid-area: fi;
+     marging-bottom: 40px;
     }
 
     .allwork {
@@ -236,11 +237,7 @@ li {
 
 
     .container {
-    /*  max-width: 100rem;*/
-    /*  max-width: 100%;*/
-    /*  margin-inline: auto;*/
-    /*  padding-inline: 2rem 2rem;*/
-      padding: 2rem 2rem;
+      padding: 10px, 1%, 20px;
       grid-area: con;
       display: block;
       margin-right: auto;
