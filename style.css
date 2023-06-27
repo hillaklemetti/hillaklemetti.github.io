@@ -116,7 +116,7 @@ rgba(75,70,170,255) tummanliila
       grid-area: nav;
       left: 0;
       padding-left: 10px;
-      margin-top: 50px;
+      margin-top: 40px;
       padding-top: 30px;
       position: fixed;
       display: inline;
@@ -169,7 +169,7 @@ li {
 
     .abouttitle {
       grid-area: at;
-      height: 210px;
+      height: 200px;
       width: 100%;
     }
 
