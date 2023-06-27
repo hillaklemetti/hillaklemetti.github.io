@@ -1,0 +1,1204 @@
+
+/*beesssi väri: white
+tummanvihree: rgb(79,94,89)
+sinivihree: rgba(188,201,191,255)
+
+
+ rgba(236,220,255,255) vaaleenliila
+
+ rgba(255,85,2,255)  oranssi
+
+
+rgba(75,70,170,255) tummanliila
+
+*/
+
+
+
+
+  /* For mobile phones: */
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+      "head head head head"
+      "nav nav nav nav"
+      "at at at at"
+      "in in in in"
+      "pic1 pic1 pic1 pic1"
+      "but but but but"
+      "content content content content"
+      "em em em em"
+      "em2 em2 em2 em2"
+      "fi fi fi fi"
+      "con con con con"
+      "cv cv cv cv"
+      "ft ft ft ft";
+    max-width: 100rem;
+    /*  margin-inline: auto;*/
+      padding-inline: 2rem;
+    }
+
+
+    html, body {
+      background-color: rgba(75,70,170,255);
+    /*  min-height: 100vh;*/
+      display: block;
+      max-width: 100%;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      min-height: 100%;
+      line-height: 1.4;
+      color: white;
+      font-family: "Karla", sans-serif;
+      font-size: 18px;
+
+         }
+
+
+
+    /* otsikko headerissa*/
+    h1 {
+      font-size: 20px;
+      color: rgba(75,70,170,255); /*tummanliila*/
+      display: block;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      text-align: center;
+      padding-right: 10px;
+
+
+
+    }
+
+    /*projektien otsikot projektisivulla*/
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 200;
+
+    }
+
+    /*korttien otsikot*/
+    h3 {
+    font-family: "Poppins", sans-serif;
+    color: rgba(236,220,255,255);
+    }
+
+    /*väliotsitkot projektisivuilla
+    footer*/
+    h4 {
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 30px;
+    }
+
+    h5 {
+      font-family: "Poppins";
+      font-size: 20px;
+    }
+
+
+
+    .blank h2 {
+        color: white;
+        text-align: center;
+        vertical-align: bottom;
+
+    }
+
+
+    .navbar {
+      grid-area: nav;
+      left: 0;
+      padding-left: 10px;
+      margin-top: 50px;
+      padding-top: 30px;
+      position: fixed;
+      display: inline;
+      float: left;
+      background-color: rgba(255,85,2,255);
+      width: 100%;
+
+
+    }
+
+
+    ul {
+      list-style-type:none;
+      margin: 0;
+      padding: 0;
+      width: 60px;
+      size: 60px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* for horizontal navigation bar */
+    li a {
+      display: inline;
+      color: rgba(236,220,255,255); /*vaaleenliila*/
+      padding: 8px 8px;
+      float: left;
+      font-size: 25px;
+      text-decoration: none;
+    }
+
+li {
+  display: inline;
+  float: left;
+}
+
+    .header {
+      grid-area: head;
+      width: 100%;
+      position: fixed;
+      display: block;
+      background-color: rgba(236,220,255,255); /* vaaleenliila*/
+      width: 100%;
+      top: 0;
+      grid-area: top;
+      left: 0;
+      padding: 10px;
+      max-height: 80px;
+
+    }
+
+    .abouttitle {
+      grid-area: at;
+      height: 210px;
+      width: 100%;
+    }
+
+    .pic1 {
+      grid-area: pic1;
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 400px;
+
+
+    }
+
+    .pic1 img {
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+
+    .intro {
+      grid-area: in;
+      margin-top: 50px;
+      padding: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+
+
+
+    }
+
+    .blank {
+      grid-area: em;
+      width: 100%;
+      min-height: 250px;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      margin-top: 50px;
+
+    }
+
+    .blank2 {
+      grid-area: em2;
+      width: 100%;
+      min-height: 250px;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+    }
+
+    .find {
+      grid-area: fi;
+    }
+
+    .allwork {
+      grid-area: wo;
+
+    }
+
+
+    .container {
+    /*  max-width: 100rem;*/
+    /*  max-width: 100%;*/
+    /*  margin-inline: auto;*/
+    /*  padding-inline: 2rem 2rem;*/
+      padding: 2rem 2rem;
+      grid-area: con;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+
+
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns:
+      repeat(auto-fit, minmax(18rem, 1fr));
+      gap: .25rem;
+
+    }
+
+    .card {
+      aspect-ratio: 1/1;
+      border: 3px;
+    }
+
+    .card_img {
+      aspect-ratio: 1 / 1;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card_content {
+    /*  background: rgba(236,220,255,255);*/
+      align-self: end;
+      margin: .5rem .5rem .5rem;
+      padding: .5rem;
+  /*    box-shadow: 0 .25rem 1rem rgb(0 0 0 );*/
+      text-align: center;
+      font-size: 28px;
+      /*border-radius: 8px;*/
+      font-family: "Poppins", sans-serif;
+      border-style: solid;
+      border-color: rgba(236,220,255,255);
+      font-weight: 200;
+
+
+    }
+
+    .card_content:hover {
+      background-color: white;
+      border-color: white;
+
+    }
+
+    .card_content h3:hover {
+      color: rgba(236,220,255,255);
+      /*rgba(75,70,170,255);*/
+      text-decoration: underline;
+    }
+
+
+
+    a {
+      text-decoration: none;
+
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+
+     a:hover h1 {
+      text-decoration: underline;
+    }
+
+    .stacked {
+      display: grid;
+    }
+
+    .stacked > * {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+
+
+    img {
+      max-width: 100%;
+      display: block;
+
+
+    }
+
+
+
+
+    .footer {
+      grid-area: ft;
+      color: white;
+      background-color: rgba(75,70,170,255);
+      width: 100%;
+      padding-bottom: 30px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 0;
+
+
+
+    }
+    .linkedinlogo {
+      color: white;
+
+    }
+
+
+    .coverletter {
+      width: 70%;
+      grid-area: cv;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      margin-inline: auto;
+      padding-inline: 2rem;
+      text-align: center;
+      height: 80px;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 8px;
+      border: solid;
+      border-color: rgba(236,220,255,255);
+
+    }
+
+    .coverletter a {
+      font-size: 60px;
+      color: rgba(255,85,2,255);
+    }
+
+    .coverletter:hover {
+      background-color: rgba(236,220,255,255);
+    }
+
+
+    .coverside {
+      grid-area: cs;
+
+    }
+
+    .cvtitle {
+      grid-area: cvt;
+      width: 100%;
+      height: 10px;
+    }
+
+
+    .buttons {
+      margin-top: 270px;
+      grid-area: but;
+      background-color: rgba(75,70,170,255);
+
+
+    }
+
+    #previous {
+      float:left;
+    }
+    #following {
+      float: right;
+
+    }
+
+    button {
+      width: 40%;
+      height: 50px;
+      color: rgba(75,70,170,255);
+      background-color: rgba(236,220,255,255);
+      transition-duration: 0.5s;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: "Poppins", cursive;
+      font-weight: bold;
+      border-style: solid;
+      border-color:rgba(236,220,255,255);
+
+    }
+
+    button:hover {
+      text-decoration: underline;
+
+    }
+
+    .content {
+      grid-area: content;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p.borders {
+      border-width: 5px;
+      border-color: white;
+      border: solid;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .toimintamalli {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .toimintamalli figcaption {
+      max-width: 100%
+    }
+
+    .imga {
+      max-width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .userjourney {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .userjourney figcaption {
+
+    }
+
+    .afterbook {
+      max-width: 40%;
+      display: block;
+      float: left;
+    }
+
+    .postermaking {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .votingwall {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .burgerchart {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .wicked_logo {
+      max-width: 40%;
+      display: block;
+    float:right;
+    }
+
+    .logo_plan {
+      max-width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+
+    }
+
+    .newsletter {
+      max-width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .wicked_poster {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+
+    }
+
+    .wicked_poster_2 {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .wicked_poster_3 {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .hsd_process {
+      max-width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .final_arrangement {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .table1 {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .table2 {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .prototype {
+      max-width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 800px) {
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "top top top top"
+    "at at at at"
+    "in in pic1 pic1"
+    "but but but but"
+    "content content content content"
+    "em em em2 em2"
+    "fi fi fi fi"
+    "con con con con"
+    "cvt cvt cvt cvt"
+    "cv cv cv cv"
+    "ft ft ft ft";
+    /*margin-inline: auto;*/
+    padding-inline: 2rem;
+    /*max-width: 100%;*/
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+
+
+html, body {
+  background-color: rgba(75,70,170,255);
+/*  min-height: 100vh;*/
+  display: block;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  min-height: 100%;
+  line-height: 1.4;
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+
+     }
+
+
+
+/* otsikko headerissa*/
+h1 {
+  font-size: 60px;
+  color: rgba(236,220,255,255); /*vaaleenliila*/
+  display: block;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+
+}
+
+/*projektien otsikot projektisivulla*/
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+
+}
+
+/*korttien otsikot*/
+h3 {
+font-family: "Poppins", sans-serif;
+color: rgba(236,220,255,255);
+}
+
+/*väliotsitkot projektisivuilla
+footer*/
+h4 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+
+
+.blank h2 {
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+
+}
+
+
+.navbar {
+  grid-area: nav;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: rgba(221,160,69,255);
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* for vertical navigation bar */
+li a {
+  display: block;
+  color: rgba(236,220,255,255); /*vaaleenliila*/
+  padding: 8px 8px;
+  float: left;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+
+
+
+
+.top {
+  position: fixed;
+  display: block;
+  background-color: rgba(255,85,2,255); /* oranssi*/
+  width: 100%;
+  top: 0;
+  grid-area: top;
+  left: 0;
+}
+
+.header {
+  grid-area: head;
+  width: 100%;
+}
+
+.abouttitle {
+  grid-area: at;
+  height: 150px;
+  width: 100%;
+}
+
+.pic1 {
+  grid-area: pic1;
+  width: 80%;
+  max-width: 400px;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.pic1 img {
+  width: 100%;
+
+
+}
+
+.intro {
+  grid-area: in;
+  margin-top: 50px;
+  padding: 20px;
+  display: block;
+  margin-left: 10%;
+  color: white;
+
+
+
+}
+
+.blank {
+  grid-area: em;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+  max-width: 600px;
+
+
+
+}
+
+.blank2 {
+  grid-area: em2;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 400px;
+  margin-top: 50px;
+
+}
+
+.find {
+  grid-area: fi;
+  margin-left: 60px;
+}
+
+.blank p {
+  margin-right: -20%;
+  padding-right: 100px;
+}
+
+.allwork {
+  grid-area: wo;
+
+}
+
+
+.container {
+/*  max-width: 100rem;*/
+/*  max-width: 100%;*/
+/*  margin-inline: auto;*/
+/*  padding-inline: 2rem 2rem;*/
+  padding: 5rem 5rem;
+  grid-area: con;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+
+
+
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit, minmax(15rem, 1fr));
+  gap: .25rem;
+
+}
+
+.card {
+  aspect-ratio: 1/1;
+  border: 3px;
+}
+
+.card_img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.card_content {
+/*  background: rgba(236,220,255,255);*/
+  align-self: end;
+  margin: .5rem .5rem .5rem;
+  padding: .5rem;
+/*    box-shadow: 0 .25rem 1rem rgb(0 0 0 );*/
+  text-align: center;
+  font-size: 18px;
+  /*border-radius: 8px;*/
+  font-family: "Poppins", sans-serif;
+  border-style: solid;
+  border-color: rgba(236,220,255,255);
+  font-weight: 200;
+
+
+}
+
+.card_content:hover {
+  background-color: white;
+  border-color: white;
+
+}
+
+.card_content h3:hover {
+  color: rgba(236,220,255,255);
+  /*rgba(75,70,170,255);*/
+  text-decoration: underline;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+/*a h3 {
+  text-transform: none;
+}
+*/
+
+.navbar a:hover {
+  text-decoration: underline;
+
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+ a:hover h1 {
+  text-decoration: underline;
+}
+
+.stacked {
+  display: grid;
+}
+
+.stacked > * {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+
+
+}
+
+
+
+
+.footer {
+  grid-area: ft;
+  color: white;
+  background-color: rgba(75,70,170,255);
+  width: 100%;
+  padding-bottom: 50px;
+  text-align: center;
+bottom: 0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+.linkedinlogo {
+  color: white;
+
+}
+
+.linkedinlogo img {
+  max-width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+.coverletter {
+  grid-area: cv;
+  margin: 50px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: rgba(236,220,255,255);
+  width: 80%;
+  height: 100px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 8px;
+
+
+}
+
+
+.cvtitle {
+  grid-area: cvt;
+  width: 100%;
+  height: 150px;
+}
+
+.coverletter a {
+  font-size: 100px;
+  color: rgba(255,85,2,255);
+
+}
+
+.coverletter:hover {
+  background-color: rgba(236,220,255,255);
+}
+
+
+.buttons {
+  margin-top: 200px;
+  grid-area: but;
+  background-color: rgba(75,70,170,255);
+
+
+}
+
+#previous {
+  float:left;
+}
+#following {
+  float: right;
+
+}
+
+button {
+  width: 30%;
+  height: 50px;
+  color: rgba(75,70,170,255);
+  background-color: rgba(236,220,255,255);
+  transition-duration: 0.5s;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: "Poppins", cursive;
+  font-weight: bold;
+  border-style: solid;
+  border-color:rgba(236,220,255,255);
+
+}
+
+button:hover {
+  text-decoration: underline;
+
+}
+
+.content {
+  grid-area: content;
+  padding: 50px;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.borders {
+  border-width: 5px;
+  border-color: white;
+  border: solid;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.toimintamalli {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toimintamalli figcaption {
+  max-width: 70%
+}
+
+.imga {
+  max-width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userjourney {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userjourney figcaption {
+
+}
+
+.afterbook {
+  max-width: 25%;
+  display: block;
+  float: left;
+}
+
+.postermaking {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.votingwall {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.burgerchart {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wicked_logo {
+  max-width: 20%;
+  display: block;
+float:right;
+}
+
+.logo_plan {
+  max-width: 30%;
+  display: block;
+float: right;
+
+}
+
+.newsletter {
+  max-width: 30%;
+  display: block;
+float: right;
+}
+
+.wicked_poster {
+  max-width: 40%;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+
+
+}
+
+.wicked_poster_2 {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.wicked_poster_3 {
+    max-width: 40%;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+
+}
+
+.hsd_process {
+  max-width: 30%;
+  display: block;
+float: right;
+}
+
+.final_arrangement {
+  max-width: 50%;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.table1 {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table2 {
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tesla {
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.healthspital {
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prototype {
+  max-width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data_coding {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.affinity_diagram {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
