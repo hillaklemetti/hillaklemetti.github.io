@@ -178,7 +178,7 @@ li {
       width: 100%;
       margin-right: auto;
       margin-left: auto;
-      max-width: 400px;
+      max-width: 300px;
 
 
     }
@@ -249,7 +249,7 @@ li {
     .product-grid {
       display: grid;
       grid-template-columns:
-      repeat(auto-fit, minmax(15rem, 1fr));
+      repeat(auto-fit, minmax(12rem, 1fr));
       gap: .25rem;
 
     }
