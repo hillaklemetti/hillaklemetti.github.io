@@ -215,16 +215,7 @@ li {
 
     }
 
-    .blank2 {
-      grid-area: em2;
-      width: 100%;
-      min-height: 250px;
-      margin-bottom: 10px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-
-    }
+   
 
     .find {
      grid-area: fi;
@@ -778,17 +769,7 @@ li a {
 
 }
 
-.blank2 {
-  grid-area: em2;
-  width: 80%;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 400px;
-  margin-top: 50px;
 
-}
 
 .find {
   grid-area: fi;
