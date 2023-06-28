@@ -204,14 +204,8 @@ li {
 
     .blank {
       grid-area: em;
-      width: 100%;
-      min-height: 100px;
-      margin-bottom: 10px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 150px;
-     text-align: center;
+     height: 150px;
+      
 
     }
 
@@ -219,7 +213,13 @@ li {
 
     .find {
      grid-area: fi;
-     marging-bottom: 40px;
+     width: 100%;
+      min-height: 50px;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     text-align: center;
     }
 
     .allwork {
@@ -756,25 +756,27 @@ li a {
 
 }
 
-.blank {
-  grid-area: em;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 150px;
-  max-width: 800px;
+   .blank {
+      grid-area: em;
+     height: 150px;
+      
 
+    }
 
+   
 
-}
+    .find {
+     grid-area: fi;
+     width: 100%;
+      min-height: 50px;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     text-align: center;
+     max-width: 800px;
+    }
 
-
-
-.find {
-  grid-area: fi;
-  margin-left: 60px;
-}
 
 
 .allwork {
