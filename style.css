@@ -205,12 +205,13 @@ li {
     .blank {
       grid-area: em;
       width: 100%;
-      min-height: 250px;
+      min-height: 100px;
       margin-bottom: 10px;
       display: block;
       margin-left: auto;
       margin-right: auto;
       margin-top: 50px;
+     text-align: center;
 
     }
 
@@ -756,8 +757,7 @@ li a {
 
 .blank {
   grid-area: em;
-  width: 80%;
-  margin-bottom: 50px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
