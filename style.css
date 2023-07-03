@@ -141,15 +141,17 @@ rgba(75,70,170,255) tummanliila
     /* for horizontal navigation bar */
     li a {
     /*  display: inline; */
+     display: block;
+
+     
       color: rgba(236,220,255,255); /*vaaleenliila*/
       padding: 8px 8px;
-      float: left;
-      font-size: 25px;
+      font-size: 20px;
       text-decoration: none;
     }
 
 li {
-  display: inline;
+ /* display: inline;*/
   float: left;
 }
 
@@ -387,7 +389,7 @@ li {
 
 
     .buttons {
-      margin-top: 270px;
+      margin-top: 70px;
       grid-area: but;
       background-color: rgba(75,70,170,255);
 
