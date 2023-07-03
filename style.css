@@ -172,7 +172,7 @@ li {
 
     .abouttitle {
       grid-area: at;
-      height: 120px;
+      height: 100px;
       width: 100%;
     }
 
@@ -723,7 +723,7 @@ li a {
 
 .abouttitle {
   grid-area: at;
-  height: 150px;
+  height: 110px;
   width: 100%;
 }
 
